@@ -13,8 +13,8 @@ var AppComponent = /** @class */ (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: '<p>This is external app component.</p>'
-            //template: `<app-survey></app-survey>`,
+            //template: '<p>This is external app component.</p>'
+            template: "<app-survey></app-survey>",
         })
     ], AppComponent);
     return AppComponent;
