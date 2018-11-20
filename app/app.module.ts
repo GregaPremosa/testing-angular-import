@@ -6,7 +6,7 @@ import { SurveyComponent } from './survey/survey.component.ts'; //TODO: handle .
 @NgModule({
     imports: [BrowserModule],
     declarations: [
-        AppComponent, SurveyComponent],
+        SurveyComponent, AppComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
