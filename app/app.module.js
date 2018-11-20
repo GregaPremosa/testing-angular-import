@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
-var app_component_1 = require("./app.component"); //TODO: handle .ts
 var survey_component_1 = require("./survey/survey.component"); //TODO: handle .ts
+var app_component_1 = require("./app.component"); //TODO: handle .ts
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -17,7 +17,7 @@ var AppModule = /** @class */ (function () {
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule],
             declarations: [
-                app_component_1.AppComponent, survey_component_1.SurveyComponent
+                survey_component_1.SurveyComponent, app_component_1.AppComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         })

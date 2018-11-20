@@ -21,8 +21,8 @@ var SurveyComponent = /** @class */ (function () {
     SurveyComponent = __decorate([
         core_1.Component({
             selector: 'app-survey',
-            templateUrl: './survey.component.html',
-            styleUrls: ['./survey.component.less']
+            template: "\n<div class=\"myCustomStyle\">\n    <p> my Html component! </p>\n<button (click)=\"handleClick()\"> Click and Check Console </button>\n</div>\n",
+            styles: ["\n.myCustomStyle{\n    color:red;\n    background-color:green;\n    border: solid;\n    border-width:2px;\n    border-color:coral;\n}\n"]
         }),
         __metadata("design:paramtypes", [])
     ], SurveyComponent);
